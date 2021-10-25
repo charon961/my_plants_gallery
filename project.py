@@ -206,30 +206,39 @@ while  i>0:
     if graph_num==1:
         sleep(5)
         obj1.graph(1)
+        screen_clear()
     elif graph_num==2:
         sleep(5)
         obj2.graph(2)
+        screen_clear()
     elif graph_num==3:
         sleep(5)
         obj3.graph(3)
+        screen_clear()
     elif graph_num==4:
         sleep(5)
         obj4.graph(4)
+        screen_clear()
     elif graph_num==5:
         sleep(5)
         obj5.graph(5)
+        screen_clear()
     elif graph_num==6:
         sleep(5)
         obj6.graph(6)
+        screen_clear()
     elif graph_num==7:
         sleep(5)
         obj7.graph(7)
+        screen_clear()
     elif graph_num==8:
         sleep(5)
         obj8.graph(8)
+        screen_clear()
     elif graph_num==9:
         sleep(5)
         obj9.graph(9)
+        screen_clear()
       
            
 
