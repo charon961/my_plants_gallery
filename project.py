@@ -130,14 +130,14 @@ ls=[]
 new=9
 i=1  
 # ls=[["Neem","Rubber_tree","Tulsi"],["MoneyPlant","Aloe_Vera","Peepal"],["Maple","Mango","Mint"]]
-mydata = [["\033[1;32;40m1", "\033[1;32;40mNeem"],  ["\033[1;32;40m2", "\033[1;32;40mRubber tree"], ["\033[1;32;40m3", "\033[1;32;40mTulsi"],  ["\033[1;32;40m4", "\033[1;32;40mMoney plant"],["\033[1;32;40m5", "\033[1;32;40mAloe Vera"], ["\033[1;32;40m6", "\033[1;32;40mPeepal"],   ["\033[1;32;40m7", "\033[1;32;40mMaple"], ["\033[1;32;40m8", "\033[1;32;40mMango"],["\033[1;32;40m9", "\033[1;32;40mMint"]]
+mydata = [["\033[1;32;40m1", "\033[1;32;40mNeem"],  ["\033[1;32;40m2", "\033[1;32;40mRubber Tree"], ["\033[1;32;40m3", "\033[1;32;40mTulsi"],  ["\033[1;32;40m4", "\033[1;32;40mMoney Plant"],["\033[1;32;40m5", "\033[1;32;40mAloe Vera"], ["\033[1;32;40m6", "\033[1;32;40mPeepal"],   ["\033[1;32;40m7", "\033[1;32;40mMaple"], ["\033[1;32;40m8", "\033[1;32;40mMango"],["\033[1;32;40m9", "\033[1;32;40mMint"]]
 num=1
 while  i>0: 
  print("\033[1;32;40m-----------------------------------------------------------------------------------------\n")
  head = ["\033[1;32;40mSr. No.", "\033[1;32;40mName"]
   
   # display table
- print("\033[1;32;40mPlant Display Card:\n")
+ print("\033[1;32;40m<---Plants Display Card--->\n")
  print(tabulate(mydata, headers=head, tablefmt='fancy_grid', numalign='center'))
  if new>9:
      print("\033[1;32;40mNewly added data:\t")
@@ -153,7 +153,7 @@ while  i>0:
 
     
  print("\n\033[1;32;40m-----------------------------------------------------------------------------------------")
- print("\033[1;32;40m\n---Choices---\n\n1. About\n\n2. Plantation Graphs\n\n3. Add Information\n\n4. Add a Plant\n\n5. Exit\n")
+ print("\033[1;32;40m\n<---Choices--->\n\n1. About\n\n2. Plantation Graphs\n\n3. Add Information\n\n4. Add a Plant\n\n5. Exit\n")
  print("\033[1;32;40m-----------------------------------------------------------------------------------------")
  user=int(input("\n\033[1;31;40m<---Enter your Choice---->\t"))
  print("\n\033[1;32;40m-----------------------------------------------------------------------------------------")
