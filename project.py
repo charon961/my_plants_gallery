@@ -157,7 +157,8 @@ while  i>0:
  print("")
  print(('\033[1;32;40m<')+(('\033[1;32;40m─')*3)+'Choices'+(('\033[1;32;40m─')*3)+('\033[1;32;40m>')+'\n\n1. About\n\n2. Plantation Graphs\n\n3. Add Information\n\n4. Add a Plant\n\n5. Exit\n')
  print('\033[1;32;40m─' * 90)
- user=int(input(('\033[1;32;40m<')+(('\033[1;32;40m─')*3)+'Enter your Choice'+(('\033[1;32;40m─')*3)+('\033[1;32;40m>')+'\t'))
+ print("")
+ user=int(input(('\033[1;31;40m<')+(('\033[1;31;40m─')*3)+'Enter your Choice'+(('\033[1;31;40m─')*3)+('\033[1;31;40m>')+'\t'))
  print("")
  print('\033[1;32;40m─' * 90) 
  
