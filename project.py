@@ -8,7 +8,7 @@ def screen_clear():
 sleep(2)
 screen_clear()
 
-from matplotlib import pyplot as plt, use
+from matplotlib import pyplot as plt
 from tabulate import tabulate
 import numpy as np
 
