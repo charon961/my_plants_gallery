@@ -23,7 +23,7 @@ class plant(object):
         print(ob.detail)
     #to display graph
     def graph(self ,num):
-        if(self.num==1):
+        if(1==self.num):
                 w=0.1
                 x= ["Aio2g12737","Aio2g12807","Aio2g12732","Aio2g12712","Aio2g12732","Aio2g12732","Aio2g127122","Aio2g127374"]
                 Leaf=[10,9,1020,2,4,1,1,2]
@@ -50,7 +50,7 @@ class plant(object):
                 plt.legend()
                 plt.xticks(bar1,x)
                 plt.show()
-        elif(self.num==2):
+        elif(2==self.num):
                 w=0.4
                 x= ["2014","2015","2016","2017","2018","2019"]
                 production=[12,13,15,17,17,18]
@@ -65,7 +65,7 @@ class plant(object):
                 plt.legend()
                 plt.xticks(bar1,x)
                 plt.show()
-        elif(self.num==3):
+        elif(3==self.num):
                 w=0.2
                 x= ["Tulsi 0.5%","Tulsi 1.0%","Tulsi 2.0%","Tulsi 5.0%","Tulsi 10%"]
                 AA=[15.5,22.4,29,38.25,41]
@@ -83,9 +83,9 @@ class plant(object):
                 plt.legend()
                 plt.xticks(bar1,x)
                 plt.show()
-        elif(self.num==4):
+        elif(4==self.num):
                 pass
-        elif(self.num==5):
+        elif(5==self.num):
                 w=0.4
                 x= ["2014","2015","2016","2017"]
                 Powder=[100,20,120,200]
@@ -97,7 +97,7 @@ class plant(object):
                 plt.title("Aloe vera consumption in cosmetics and medicines")
                 plt.legend()
                 plt.show()
-        elif(self.num==6):
+        elif(6==self.num):
              pass
 
 
@@ -140,7 +140,7 @@ while  i>0:
  print("")
  print((('\033[1;32;40m<')+(('\033[1;32;40m─')*3)+'Plants Display Card'+(('\033[1;32;40m─')*3)+('\033[1;32;40m>')+'\n'))
  print(tabulate(mydata, headers=head, tablefmt='fancy_grid', numalign='center'))
- if new>9:
+ if 9<new:
      print("\033[1;32;40mNewly added data:\t")
      print(" ")
      for obj in ls:
@@ -162,66 +162,66 @@ while  i>0:
  print("")
  print('\033[1;32;40m─' * 90) 
  
- if user==5:
+ if 5==user:
      break
- elif user==1:
+ elif 1==user:
     plant_num=int(input("\n\033[1;32;40mWhich Plant:\t"))
-    if plant_num==1:
+    if 1==plant_num:
         sleep(2)
         screen_clear()
         obj1.display(obj1)
         sleep(20)
         screen_clear()
-    elif plant_num==2:
+    elif 2==plant_num:
         sleep(2)
         screen_clear()
         obj2.display(obj2)
         sleep(20)
         screen_clear()
-    elif plant_num==3:
+    elif 3==plant_num:
         sleep(2)
         screen_clear()
         print("\n")
         obj3.display(obj3)
         sleep(20)
         screen_clear()
-    elif plant_num==4:
+    elif 4==plant_num:
         sleep(2)
         screen_clear()
         obj4.display(obj4)
         sleep(20)
         screen_clear()
-    elif plant_num==5:
+    elif 5==plant_num:
         sleep(2)
         screen_clear()
         obj5.display(obj5)
         sleep(20)
         screen_clear()
-    elif plant_num==6:
+    elif 6==plant_num:
         sleep(2)
         screen_clear()
         obj6.display(obj6)
         sleep(20)
         screen_clear()
-    elif plant_num==7:
+    elif 7==plant_num:
         sleep(2)
         screen_clear()
         obj7.display(obj7)
         sleep(20)
         screen_clear()
-    elif plant_num==8:
+    elif 8==plant_num:
         sleep(2)
         screen_clear()
         obj8.display(obj8)
         sleep(20)
         screen_clear()
-    elif plant_num==9:
+    elif 9==plant_num:
         sleep(2)
         screen_clear()
         obj9.display(obj9)
         sleep(20)
         screen_clear()
- elif user==2:
+ elif 2==user:
     graph_num=int(input("\n\033[1;32;40mWhich Plant:\t"))
     if graph_num==1:
         sleep(2)
@@ -259,65 +259,65 @@ while  i>0:
         sleep(2)
         obj9.graph(9)
         screen_clear()
- elif user==3:
+ elif 3==user:
      plant_num=int(input("\033[1;32;40mWhich Plant:\t"))
-     if plant_num==1:
+     if 1==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj1.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==2:
+     if 2==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj2.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==3:
+     if 3==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj3.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==4:
+     if 4==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj4.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==5:
+     if 5==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj5.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==6:
+     if 6==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj6.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==7:
+     if 7==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj7.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==8:
+     if 8==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
         obj8.change(plant_num,s)
         sleep(2)
         screen_clear()
-     if plant_num==9:
+     if 9==plant_num:
         sleep(2)
         screen_clear()
         s=input("\033[1;32;40mAdd Line:\t")
@@ -325,7 +325,7 @@ while  i>0:
         sleep(2)
         screen_clear()
          
- elif user==4:
+ elif 4==user:
     plant_nam=input("\033[1;32;40mName of the Plant:\t")
     plant_detail=input("\033[1;32;40mAbout Plant:\t")
     new+=1
