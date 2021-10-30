@@ -227,39 +227,39 @@ while  i>0:
         screen_clear()
  elif 2==user:
     graph_num=int(input("\n\033[1;32;40mWhich Plant:\t"))
-    if graph_num==1:
+    if 1==graph_num:
         sleep(2)
         obj1.graph(1)
         screen_clear()
-    elif graph_num==2:
+    elif 2==graph_num:
         sleep(2)
         obj2.graph(2)
         screen_clear()
-    elif graph_num==3:
+    elif 3==graph_num:
         sleep(2)
         obj3.graph(3)
         screen_clear()
-    elif graph_num==4:
+    elif 4==graph_num:
         sleep(2)
         obj4.graph(4)
         screen_clear()
-    elif graph_num==5:
+    elif 5==graph_num:
         sleep(2)
         obj5.graph(5)
         screen_clear()
-    elif graph_num==6:
+    elif 6==graph_num:
         sleep(2)
         obj6.graph(6)
         screen_clear()
-    elif graph_num==7:
+    elif 7==graph_num:
         sleep(2)
         obj7.graph(7)
         screen_clear()
-    elif graph_num==8:
+    elif 8==graph_num:
         sleep(2)
         obj8.graph(8)
         screen_clear()
-    elif graph_num==9:
+    elif 9==graph_num:
         sleep(2)
         obj9.graph(9)
         screen_clear()
@@ -357,7 +357,6 @@ while  i>0:
     plant_detail=input("\033[1;32;40mAbout Plant:\t")
     new+=1
     new_obj=plant(plant_nam,new,plant_detail)
-    #ls=[]
     ls.append(new_obj)
     sleep(2)
     screen_clear()
