@@ -1,7 +1,7 @@
 import os
 from time import sleep
 def screen_clear():
-  if os.name == 'posix':
+  if 'posix' == os.name:
     _ = os.system('clear')
   else:
     _ = os.system('cls')
