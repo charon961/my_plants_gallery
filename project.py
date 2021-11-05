@@ -146,9 +146,41 @@ while  i>0:
      print("")
      print((('\033[1;32;40m<')+(('\033[1;32;40m─')*3)+'Newly Added Data'+(('\033[1;32;40m─')*3)+('\033[1;32;40m>')+'\n'))
      head1 = ["\033[1;32;40mSr. No.", "\033[1;32;40mName", "\033[1;32;40mDetails"]
-     for obj in ls:
-         print(tabulate([[obj.num, obj.name,obj.detail]], headers=['S.no', 'Name','Detail'], tablefmt='orgtbl'))
-      
+
+     if 10==new:
+         for obj10 in ls:
+             newdata = [[obj10.num, obj10.name, obj10.detail]]
+         print(tabulate(newdata, headers=head1, tablefmt='fancy_grid', numalign='center'))
+
+     elif 11==new:
+         for obj11 in ls:
+             newdata2 = newdata + [[obj11.num, obj11.name, obj11.detail]]
+         print(tabulate(newdata2, headers=head1, tablefmt='fancy_grid', numalign='center'))
+
+     elif 12==new:
+         for obj12 in ls:
+             newdata3 = newdata2 + [[obj12.num, obj12.name, obj12.detail]]
+         print(tabulate(newdata3, headers=head1, tablefmt='fancy_grid', numalign='center'))
+
+     elif 13==new:
+         for obj13 in ls:
+             newdata4 = newdata3 + [[obj13.num, obj13.name, obj13.detail]]
+         print(tabulate(newdata4, headers=head1, tablefmt='fancy_grid', numalign='center'))
+
+     elif 14==new:
+         for obj14 in ls:
+             newdata5 = newdata4 + [[obj14.num, obj14.name, obj14.detail]]
+         print(tabulate(newdata5, headers=head1, tablefmt='fancy_grid', numalign='center'))
+
+     elif 15==new:
+         for obj15 in ls:
+             newdata6 = newdata5 + [[obj15.num, obj15.name, obj15.detail]]
+         print(tabulate(newdata6, headers=head1, tablefmt='fancy_grid', numalign='center'))   
+
+     elif 15<new:
+         pass          
+
+          
 #  for i in range(3):
 #     for j in range(3):
 #        print("   ",ls[i][j],end=" ")  
