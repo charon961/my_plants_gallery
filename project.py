@@ -147,8 +147,7 @@ while  i>0:
      print((('\033[1;32;40m<')+(('\033[1;32;40m─')*3)+'Newly Added Data'+(('\033[1;32;40m─')*3)+('\033[1;32;40m>')+'\n'))
      head1 = ["\033[1;32;40mSr. No.", "\033[1;32;40mName", "\033[1;32;40mDetails"]
      for obj in ls:
-         print(" ",obj.num," ",obj.name," ",obj.detail)
-         #print(tabulate(ls, headers=head1, tablefmt='fancy_grid', numalign='center'))
+         print(tabulate([[obj.num, obj.name,obj.detail]], headers=['S.no', 'Name','Detail'], tablefmt='orgtbl'))
       
 #  for i in range(3):
 #     for j in range(3):
@@ -360,5 +359,3 @@ while  i>0:
     ls.append(new_obj)
     sleep(2)
     screen_clear()
-         
-           
