@@ -57,9 +57,9 @@ class plant(object):
                 consumption=[10,11,13,14,15,16]
                 bar1=np.arange(len(x))
                 bar2=[i+w for i in bar1]
-                plt.bar(bar1,production,w,label="production")
-                plt.bar(bar2,consumption,w,label="consumption")
-                plt.xlabel(" consumption and production")
+                plt.bar(bar1,production,w,label="Production")
+                plt.bar(bar2,consumption,w,label="Consumption")
+                plt.xlabel(" Consumption and Production")
                 plt.ylabel("Million Tonnes")
                 plt.title("World Natural Rubber year wise Consumption and Production")
                 plt.legend()
