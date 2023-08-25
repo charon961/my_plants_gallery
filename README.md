@@ -11,7 +11,7 @@ Graphs using matplotlib to display information about a particular plant
 
 
 ![image](https://user-images.githubusercontent.com/76212266/205897383-bbbcc69c-9b88-4b6d-8f79-faa366c08414.png)
-Read about any plant using ABOUT  option 
+Read about any plant using ABOUT option 
 
 
 ![image](https://user-images.githubusercontent.com/76212266/205897564-64ded7cf-2f2b-43de-a714-71f791e18b97.png)
