@@ -1,15 +1,12 @@
-# python_project19
-plants record menu driven program using class in python
-
+# Plants Gallery
+Plants record menu driven program using classes in Python.
 
 
 ![image](https://user-images.githubusercontent.com/76212266/205896770-a4fb0034-42a1-49c8-b9eb-c333c991c2b6.png)
-
 Menu for the user along with table of choices
 
 
 ![image](https://user-images.githubusercontent.com/76212266/205897072-608a77bf-f227-4aaf-82ab-1bd0588965c7.png)
-
 Graphs using matplotlib to display information about a particular plant
 
 
